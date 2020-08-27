@@ -1,0 +1,179 @@
+{
+	"duel": {
+		"overloads": {
+			"player": {
+				"input": {
+					"parameters": [
+						{
+							"name": "player",
+							"type": "target",
+							"optional": false
+						}
+					]
+				}
+			}
+		}
+	},
+	"elo": {
+		"overloads": {
+			"player": {
+				"input": {
+					"parameters": [
+						{
+							"name": "player",
+							"type": "target",
+							"optional": true
+						}
+					]
+				}
+			}
+		}
+	},
+	"party": {
+		"overloads": {
+			"accept": {
+				"input": {
+					"parameters": [
+						{
+							"name": "accept",
+							"type": "string",
+							"asEnum": true
+						},
+						{
+							"name": "player",
+							"type": "target",
+							"optional": false
+						}
+					]
+				}
+			},
+			"chat": {
+				"input": {
+					"parameters": [
+						{
+							"name": "chat",
+							"type": "string",
+							"asEnum": true
+						},
+						{
+							"name": "msg",
+							"type": "string"
+						}
+					]
+				}
+
+			},
+			"deny": {
+				"input": {
+					"parameters": [
+						{
+							"name": "deny",
+							"type": "string",
+							"asEnum": true
+						},
+						{
+							"name": "player",
+							"type": "target",
+							"optional": false
+						}
+					]
+				}
+
+			},
+			"disband": {
+				"input": {
+					"parameters": [
+						{
+							"name": "disband",
+							"type": "string",
+							"asEnum": true
+						}
+					]
+				}
+
+			},
+			"help": {
+				"input": {
+					"parameters": [
+						{
+							"name": "help",
+							"type": "string",
+							"asEnum": true
+						}
+					]
+				}
+
+			},
+			"invite": {
+				"input": {
+					"parameters": [
+						{
+							"name": "invite",
+							"type": "string",
+							"asEnum": true
+						},
+						{
+							"name": "player",
+							"type": "target",
+							"optional": false
+						}
+					]
+				}
+			},
+			"kick": {
+				"input": {
+					"parameters": [
+						{
+							"name": "kick",
+							"type": "string",
+							"asEnum": true
+						},
+						{
+							"name": "player",
+							"type": "target",
+							"optional": false
+						}
+					]
+				}
+			},
+			"leave": {
+				"input": {
+					"parameters": [
+						{
+							"name": "leave",
+							"type": "string",
+							"asEnum": true
+						}
+					]
+				}
+
+			},
+			"list": {
+				"input": {
+					"parameters": [
+						{
+							"name": "list",
+							"type": "string",
+							"asEnum": true
+						}
+					]
+				}
+			}
+		}
+	},
+	"spectate": {
+		"overloads": {
+			"player": {
+				"input": {
+					"parameters": [
+						{
+							"name": "player",
+							"type": "target",
+							"optional": false
+						}
+					]
+				}
+			}
+		}
+	}
+}
