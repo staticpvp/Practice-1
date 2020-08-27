@@ -1,9 +1,5 @@
-# ArenaPvP
+# Practice
 
-An open-source ArenaPvP plugin, inspired by [Badlion](https://www.badlion.net)
+An open-source Practice plugin
 
-Supports the latest version of [PMMP](https://www.github.com/pmmp/Pocketmine-MP)
-
-Feel free to submit an issue if you find any bugs, want changes or enhancements, etc.
-
-For help with commands, visit [this](https://github.com/IrishPacks/ArenaPvP/wiki/Commands) page.
+This version does *not* work out of the box. This is just a dump of some of the plugins from Valiant.
